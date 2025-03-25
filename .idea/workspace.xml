@@ -5,32 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba601ce6-135b-4bc9-8cec-2741243f783a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.prettierignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(auth)/sign-in/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(auth)/sign-up/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(root)/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(root)/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/AuthForm.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/FormField.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/mock_interview_platform.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mock_interview_platform.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eslint.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/eslint.config.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(root)/interview/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Agent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(auth)/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(auth)/sign-up/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/sign-up/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/AuthForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/AuthForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/DisplayTechIcon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/DisplayTechIcon.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/InterviewCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/InterviewCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constants/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/constants/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase/admin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/admin.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase/client.ts" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/client.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/actions/auth.action.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/actions/auth.action.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/postcss.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/postcss.config.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/file.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/globe.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/next.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vercel.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/window.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/calendar.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/calendar.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/date-icon.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,37 +52,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/B/Downloads/prepwise_public/prepwise_public/public",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\B\\Desktop\\Dev\\NextJS\\mock_interview_platform\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "settings.editor.splitter.proportion": "0.28248587",
-    "ts.external.directory.path": "C:\\Users\\B\\Desktop\\Dev\\NextJS\\mock_interview_platform\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Node.js.admin.ts.executor&quot;: &quot;Debug&quot;,
+    &quot;Node.js.auth.action.ts.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/B/Downloads/prepwise_public/prepwise_public/public&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\B\\Desktop\\Dev\\NextJS\\mock_interview_platform\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.28248587&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\B\\Desktop\\Dev\\NextJS\\mock_interview_platform\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\B\Downloads\prepwise_public\prepwise_public\public" />
       <recent name="C:\Users\B\Downloads\prepwise_public.zip\prepwise_public\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\B\Desktop\Dev\NextJS\mock_interview_platform\lib" />
       <recent name="C:\Users\B\Desktop\Dev\NextJS\mock_interview_platform\app" />
       <recent name="C:\Users\B\Desktop\Dev\NextJS\mock_interview_platform\app\(auth)\sign-up" />
       <recent name="C:\Users\B\Desktop\Dev\NextJS\mock_interview_platform\app\(root)" />
       <recent name="C:\Users\B\Desktop\Dev\NextJS\mock_interview_platform" />
-      <recent name="C:\Users\B\Desktop\Dev\NextJS\mock_interview_platform\public" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -107,7 +104,20 @@
       <updated>1742570032966</updated>
       <workItem from="1742570034166" duration="17172000" />
       <workItem from="1742656230440" duration="2536000" />
-      <workItem from="1742658807923" duration="5378000" />
+      <workItem from="1742658807923" duration="15138000" />
+      <workItem from="1742674478415" duration="2405000" />
+      <workItem from="1742829272700" duration="4165000" />
+      <workItem from="1742833505892" duration="181000" />
+      <workItem from="1742833695790" duration="7583000" />
+      <workItem from="1742841487655" duration="6716000" />
+      <workItem from="1742848313590" duration="218000" />
+      <workItem from="1742848539050" duration="422000" />
+      <workItem from="1742848972257" duration="750000" />
+      <workItem from="1742849737965" duration="286000" />
+      <workItem from="1742850033726" duration="960000" />
+      <workItem from="1742851286236" duration="133000" />
+      <workItem from="1742851429651" duration="3403000" />
+      <workItem from="1742921026808" duration="4337000" />
     </task>
     <servers />
   </component>
